@@ -10,8 +10,16 @@
     <script type="text/javascript" src="/scripts/services/listings.service.js"></script>
     <script type="text/javascript" src="/scripts/services/rentals.service.js"></script>
   </head>
-  <body>
+  <body ng-app="myApp">
       <ng-view></ng-view>
-    
+     <div>
+<ul>
+    <li><a href="#!home">home</li>
+    <li><a href="#!rentals">rentals</li>
+    <li><a href="#!listings">listings</li>
+</ul>
+
+
+</div>
   </body>
 </html>
