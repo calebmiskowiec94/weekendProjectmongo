@@ -21,7 +21,7 @@ app.use('/listings', listings);
 
 /** MONGOOSE CONNECTION **/
 // required
-var databaseUrl = 'mongodb://localhost:27017/betelgeuse';
+var databaseUrl = 'mongodb://localhost:27017/realestate';
 mongoose.connect(databaseUrl, 
 {
     useMongoClient: true
