@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 // bring in our Mongoose model
 var Listings = require('../models/listings.schema.js');
-var Rentals = require('../models/rentals.schema.js');
+//var Rentals = require('../models/rentals.schema.js');
 
 
 router.get('/', function(req, res) {

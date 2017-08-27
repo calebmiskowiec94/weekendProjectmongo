@@ -3,8 +3,8 @@ var Schema = mongoose.Schema;
 
 // create the Schema
 var rentalsSchema = new Schema({
-    rent: {type: String, required: true, unique: false},
-    sqft: {type: String},
+    rent: {type: Number, required: true, unique: false},
+    sqft: {type: Number},
     city: {type: String, required: false, unique: false},
 
 });

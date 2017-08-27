@@ -4,6 +4,7 @@ var Schema = mongoose.Schema;
 // create the Schema
 var listingsSchema = new Schema({
     cost: {type: Number},
+    sqft:{type: Number},
     city: {type: String, required: false, unique: false},
 });
 

@@ -1,6 +1,6 @@
-myApp.controller('listingsController',['ListingsService',function(ListingsService){
+myApp.controller('ListingsController',['ListingsService',function(ListingsService){
 var self = this;
-self.listingsThings=ListingsService.listingsThings
+self.listingsThings = ListingsService.listings;
 
 
 }]);

@@ -1,0 +1,19 @@
+<h1>Rentals</h1>
+
+
+    <table>
+         <thead>
+             <tr>
+                 <th>rent</th>
+                 <th>sqft</th>
+                 <th>city</th>
+            </tr>
+         </thead>
+         <tbody ng-repeat='rentals in vm.rentalsThings.list'>
+             <tr>
+                 <td>{{rentals.rent}} </td>
+                 <td>{{rentals.sqft}}</td>
+                 <td>{{rentals.city}}</td>
+             </tr>
+         </tbody>
+     </table>

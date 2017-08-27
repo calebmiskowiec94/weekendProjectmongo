@@ -1,0 +1,17 @@
+<h1>listings</h1>
+    <table>
+         <thead>
+             <tr>
+                 <th>cost</th>
+                 <th>sqft</th>
+                 <th>city</th>
+            </tr>
+         </thead>
+         <tbody ng-repeat='listings in vm.listingsThings.list'>
+             <tr>
+                 <td>{{listings.cost}} </td>
+                 <td>{{listings.sqft}}</td>
+                 <td>{{listings.city}}</td>
+             </tr>
+         </tbody>
+     </table>
